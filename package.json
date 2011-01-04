@@ -1,11 +1,14 @@
 {
   "name": "uberblic",
   "description": "A wrapper for the uberblic.org API",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/agnoster/node-uberblic",
   "author": "Isaac Wolkerstorfer <agnoster@gmail.com> (http://agnoster.net/)",
   "directories": {
-    "lib": ""
+    "lib": "./lib/uberblic/"
+  },
+  "dependencies": {
+  	"request": ">=0.10.0"
   },
   "engines": {
     "node": "*"
