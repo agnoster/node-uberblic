@@ -3,7 +3,7 @@ Uberblic
 
 [Uberblic] is a platform to connect the entity graph across the web and make it available through a simple API.
 
-This package exposes it in node, and will rock your face off.
+This package exposes it in [node], and will rock your face off.
 
 Example:
 

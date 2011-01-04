@@ -15,7 +15,7 @@ var tester = function(obj) {
 	}
 };
 
-var foo = uberblic.search({query: "Berlin"}, tester);
+var foo = uberblic.search({ query: "Berlin" }, tester);
 var foo = uberblic.search("Berlin").on('complete', tester).on('error', ACK);
 
-obj.click(fn).live('click', fn).bind('click', fn)
+obj.click(fn).live('click', fn).bind('click', fn).on({success: fn,}

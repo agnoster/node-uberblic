@@ -2,6 +2,13 @@ uberblic = require('uberblic')
 util = require('util')
 
 uberblic.search 'Berlin', (response) ->
-    util.puts el.label + ': ' + el.uri for el in response
+    util.puts el.label + ':\t' + el.description.substr(0,70) + '...' for el in response
+
+uberblic.lookup 'http://en.wikipedia.org/wiki/Berlin', (response) ->
+    util.puts "\nFused resources for wikipedia/Berlin:"
+    util.puts el.uri + ' -> ' + el.source_uri for el in response
+    util.puts ""
 
 uberblic.rock face: "off"
+
+
